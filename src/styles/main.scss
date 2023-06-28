@@ -12,6 +12,7 @@
 .title {
     margin-top: 25px;
     padding-left: 24px;
+    padding-right: 32px;
     color: aliceblue;
     font-family: variables.$fonteTitulos;
     font-size: 50px;
@@ -19,7 +20,7 @@
 
 
     &--big {
-        font-size: 75px;
+        font-size: 55px;
     }
 
 }
