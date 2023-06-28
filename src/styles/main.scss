@@ -6,5 +6,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: variables.$fontePrincipal;
+    background-color: variables.$corDeFundo;
 }
 
+.title {
+    margin-top: 25px;
+    padding-left: 24px;
+    color: aliceblue;
+    font-family: variables.$fonteTitulos;
+    font-size: 50px;
+    text-align: center;
+
+
+    &--big {
+        font-size: 75px;
+    }
+
+}

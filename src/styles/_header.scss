@@ -1,7 +1,24 @@
+@use 'variables';
+
 .header {
+    
     &__container {
-        background-image: url(./images/spider_baner_principal.jpg);
-        background-size: cover;
-        background-position: center;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 24px 24px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        picture {
+            display: block;
+            position: relative;
+        
+            img {
+                width: 100%;
+                border-radius: 7px;
+            }
+        }
     }
 }
